@@ -6,8 +6,8 @@ Program Description: This programs allows users to select an items from an inven
 
 
 Program Requirements:Program was written in Python 3.6.1
-Requires register.txt file with proper setup
-Requires inventory.csv file with proper setup
+Requires register.txt file with proper setup (see powerpoint)
+Requires inventory.csv file with proper setup (see powerpoint)
 
 
 Install Instructions: Make sure You have Python 3.6 Installed or compatible python version
