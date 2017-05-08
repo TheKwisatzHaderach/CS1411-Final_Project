@@ -7,7 +7,7 @@
 #False if cash < total
 #False if not enough change in register
 #True with change values printed also updates register with new totals
-def makeChange(total, cash):
+def makeChange(total, cash): #(makeChange() made by Sterling)
     total = int(total*100)#to avoid float innacuracy problems
     cash = int(cash*100) #to avoid float innacuracy problems
     money = 0
@@ -57,7 +57,7 @@ def makeChange(total, cash):
 
 #findItem() passes in the user inputted item and a items dictionary with the corresponding prices
 #the function checks if the item exist and return corresponding item price as float if it does and return False if item dosent exist
-def findItem(item,iDict): # pass in item from user and inventory dictionary
+def findItem(item,iDict): # pass in item from user and inventory dictionary (findItem() made by Nate)
     #checks if item exist
     try:
         return float(iDict[item]) # returns item price as float
@@ -66,7 +66,7 @@ def findItem(item,iDict): # pass in item from user and inventory dictionary
 
 #main passes in a dictionary with the items as the key and price as the values
 #has exception handling for user inputs as floats
-def main(itemDict):
+def main(itemDict): #(made by Garrett)
     import time #imports time module
     total = 0.00
     change = 0.00
@@ -112,7 +112,7 @@ def main(itemDict):
     print(" ")
     return False
 
-#main run of the program
+#main run of the program (main() Made by Nate)
 import time #imports time module
 import csv #imports csv module to read csv files easier
 itemsList = [] #empty list 
