@@ -24,5 +24,11 @@ When you are done entering item then enter "done" to begin checking out
 enter the amount of cash you would like to pay with as a float
 Thats it! The program will restart and the checkout process can begin again.
 
+Indivdiual Contributions:
+Garrett: Main()
+Nate: Non function program and findItem()
+Sterling: makeChange()
+
+
 
 
